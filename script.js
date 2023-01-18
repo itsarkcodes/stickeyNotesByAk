@@ -12,7 +12,7 @@ addNoteButton.addEventListener("click", ()=>{
     addNote();
 });
 // hello world
-
+// added
 //Retrive all the existing notes from local storage in the client's browser
 function getNotes(){
     return JSON.parse(localStorage.getItem("stickynotes-notes") || "[]");
