@@ -11,6 +11,7 @@ getNotes().forEach(note =>{
 addNoteButton.addEventListener("click", ()=>{
     addNote();
 });
+// hello world
 
 //Retrive all the existing notes from local storage in the client's browser
 function getNotes(){
